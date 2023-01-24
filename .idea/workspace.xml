@@ -4,19 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="255d3d65-ccb9-45e3-b3a3-1c25520bd2a4" name="Changes" comment="add ConsumerDemoWithCooperativeBalance">
-      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/org/ntg/WikimediaChangesProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/org/ntg/WikimediaEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="255d3d65-ccb9-45e3-b3a3-1c25520bd2a4" name="Changes" comment="add Kafka WikimediaChangesProducer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/org/ntg/WikimediaChangesProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-wikimedia/src/main/java/org/ntg/WikimediaChangesProducer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="module" />
+      <option value="directory" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -212,7 +214,7 @@
       <workItem from="1674483489414" duration="2307000" />
       <workItem from="1674492973162" duration="2740000" />
       <workItem from="1674496302019" duration="8039000" />
-      <workItem from="1674582582423" duration="3559000" />
+      <workItem from="1674582582423" duration="6502000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1674508233075</created>
@@ -263,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674508323937</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add Kafka WikimediaChangesProducer">
+      <created>1674586808307</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674586808307</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +298,8 @@
     <MESSAGE value="add ConsumerDemo" />
     <MESSAGE value="add ConsumerDemoWithShutdownHook" />
     <MESSAGE value="add ConsumerDemoWithCooperativeBalance" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ConsumerDemoWithCooperativeBalance" />
+    <MESSAGE value="add Kafka WikimediaChangesProducer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Kafka WikimediaChangesProducer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
