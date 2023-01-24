@@ -7,13 +7,13 @@ services:
       plugins.security.disabled: true
       compatability.override_main_response_version: true
     ports:
-      - 9200:9200
-      - 9600:9600
+      - "9200:9200"
+      - "9600:9600"
 
   opensearch-dashboards:
     image: opensearchproject/opensearch-dashboards
     ports:
-      - 5601:5601
+      - "5601:5601"
     environment:
       OPENSEARCH_HOSTS: '["http://opensearch:9200"]'
       DISABLE_SECURITY_DASHBOARD_PLUGIN: true

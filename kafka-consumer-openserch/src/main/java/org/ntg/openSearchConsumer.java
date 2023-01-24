@@ -1,6 +1,6 @@
 package org.ntg;
 
-public class Main {
+public class openSearchConsumer {
     public static void main(String[] args) {
         System.out.println("Hello world!");
     }
